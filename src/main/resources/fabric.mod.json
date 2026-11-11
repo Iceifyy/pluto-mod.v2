@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "plutomod",
+  "version": "${version}",
+  "name": "Pluto Mod",
+  "description": "Light blue and black client menu with HUD and performance options.",
+  "environment": "client",
+  "mixins": ["plutomod.mixins.json"],
+  "entrypoints": { "client": ["com.plutomod.PlutoMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

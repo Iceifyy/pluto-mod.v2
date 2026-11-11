@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.plutomod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ParticleManagerMixin", "EntityMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
